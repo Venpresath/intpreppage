@@ -58,6 +58,7 @@ body {
     text-align: center;
     padding-top: 3%;
 }
+
 .bHead{
     margin-bottom: 1px;
 }
@@ -107,4 +108,31 @@ body {
     z-index: -1;
     transform-origin: top left;
     transform: skewY(-3deg);
+}
+
+.bullyingContainer{
+    margin: auto;
+    width: 50%;
+}
+
+.orange{
+    color: rgb(158, 103, 0);
+}
+
+.cp{
+    margin-top: 2px;
+    font-size: 0.82rem;
+}
+
+/* change list style */
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+    list-style-position: outside;
+}
+ 
+ul li:before {
+    color: rgb(158, 103, 0);
+    content: '>>';
 }
