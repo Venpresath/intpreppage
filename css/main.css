@@ -94,6 +94,27 @@ body {
     font-size: 0.82rem;
 }
 
+.quid-empty{
+    position: absolute;
+    bottom: -15%;
+    left: 10%;
+}
+
+.drag-man{
+    position: absolute;
+    z-index:3;
+}
+.drag-woman{
+    position: absolute;
+    z-index:3;
+}
+
+.hostile-empty{
+    position: absolute;
+    bottom: -15%;
+    right: 10%;
+}
+
 .slantedBFloor{
     width: 100%;
     height: 20vh;
