@@ -8,7 +8,7 @@ body {
       position: relative;
       width: 100%;
       margin-top: 25px;
-      height: 400px;
+      height: 90vh;
       color: #e5e5e5;
       box-sizing: border-box;
       padding: 30px;
@@ -30,11 +30,37 @@ body {
       transform: skewY(-2deg);
   }
 
+  .aContainer{
+      margin-top: 5%;
+  }
+  .aHead{
+      font-size: 8vw;
+  }
+
+  .harrassment-womanwithtextpod{
+    position: absolute;
+        bottom: -6%;
+        right: 24%;
+    width: 68%;
+    height: auto;
+    z-index: 2;
+  }
+
+  .harrassment-man{
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+    width: 25%;
+    height: auto;
+    z-index: 1;
+  }
+
+
   /*Two Types of Harassment Div*/
   .slantedDivB{
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 75vh;
     color: #e5e5e5;
 }
 
@@ -70,7 +96,7 @@ body {
 
 .slantedBFloor{
     width: 100%;
-    height: 100px;
+    height: 20vh;
     background-color: #878787;
 }
 .slantedBFloor::after{
@@ -88,7 +114,7 @@ body {
     position: relative;
     width: 100%;
     margin-top: 0;
-    height: 400px;
+    height: 90vh;
     color: #e5e5e5;
     box-sizing: border-box;
     padding: 30px;
