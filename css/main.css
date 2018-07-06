@@ -1,0 +1,110 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: #e5e5e5;
+  }
+
+  .slantedDivA{
+      position: relative;
+      width: 100%;
+      margin-top: 25px;
+      height: 400px;
+      color: #e5e5e5;
+      box-sizing: border-box;
+      padding: 30px;
+  }
+
+  .slantedDivA::after{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      content: '';
+      background: inherit;
+      background-image: url(/img/star-bg.png);
+      top: 0; 
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      transform-origin: top right;
+      transform: skewY(-2deg);
+  }
+
+  /*Two Types of Harassment Div*/
+  .slantedDivB{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    color: #e5e5e5;
+}
+
+.slantedDivB::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    background-color: #374d77;
+    z-index: -1;
+    top: 0; 
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: top right;
+    transform: skewY(-2deg);
+}
+
+.bContainer{
+    text-align: center;
+    padding-top: 3%;
+}
+.bHead{
+    margin-bottom: 1px;
+}
+
+.bp{
+    margin-top: 2px;
+    font-size: 0.82rem;
+}
+
+.slantedBFloor{
+    width: 100%;
+    height: 100px;
+    background-color: #878787;
+}
+.slantedBFloor::after{
+    content: '';
+    width: 100%;
+    height: 150px;
+    background-color: #878787;
+    transform-origin: top left;
+    transform: skewY(2deg);
+}
+
+/*Bullying Div*/
+
+.slantedDivC{
+    position: relative;
+    width: 100%;
+    margin-top: 0;
+    height: 400px;
+    color: #e5e5e5;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.slantedDivC::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    background-color: #a4a4a4e0;
+    top: 0; 
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transform-origin: top left;
+    transform: skewY(-3deg);
+}
