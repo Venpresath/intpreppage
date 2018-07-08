@@ -100,13 +100,16 @@ body {
     left: 10%;
 }
 
+
 .drag-man{
     position: absolute;
     z-index:3;
 }
-.drag-woman{
+.drag-woman {
     position: absolute;
-    z-index:3;
+    z-index: 3;
+    top: 150px;
+    left: 560px;
 }
 
 .hostile-empty{
@@ -155,6 +158,44 @@ body {
     z-index: -1;
     transform-origin: top left;
     transform: skewY(-3deg);
+}
+
+.pageBottom{
+    position: relative;
+    width: 100%;
+    margin-top: 0;
+    height: 23vh;
+    color: #e5e5e5;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.pageBottom:after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    background-color: #e5e5e5;
+    top: 0; 
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    transform-origin: top left;
+    transform: skewY(-3deg);
+}
+
+.bullyingBullies{
+    position: absolute;
+    left: 4%;
+    bottom: -7%;
+}
+
+.bullyingVictim{
+    position: absolute;
+    right: 11%;
+    bottom: -17%;
 }
 
 .bullyingContainer{
